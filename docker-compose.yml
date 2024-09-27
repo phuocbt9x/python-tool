@@ -6,6 +6,5 @@ services:
       args:
         - TZ=Asia/Ho_Chi_Minh
     volumes:
-      - ./src:/src:cached
-      - ./logs:/src/logs:cached
+      - ./src:/src
     restart: always

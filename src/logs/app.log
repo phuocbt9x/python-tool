@@ -1,0 +1,21 @@
+2024-09-27 15:50:39,326 - INFO - Successfully opened session 01ef7cad-920c-18ed-a7fd-699f146fed4a
+2024-09-27 15:50:39,327 - INFO - Kết nối thành công!
+2024-09-27 15:50:56,435 - INFO - Closing session 01ef7cad-920c-18ed-a7fd-699f146fed4a
+2024-09-27 17:04:59,566 - INFO - Successfully opened session 01ef7cb7-f475-15a4-8db0-f6a81b6081e1
+2024-09-27 17:04:59,568 - INFO - Kết nối thành công!
+2024-09-27 17:05:14,742 - INFO - Closing session 01ef7cb7-f475-15a4-8db0-f6a81b6081e1
+2024-09-27 17:07:10,294 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:07:21,233 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:07:47,280 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:08:03,387 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:08:30,067 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:09:04,061 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:09:18,603 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:09:47,083 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:10:47,104 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:11:18,258 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:11:35,503 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:12:34,659 - ERROR - Một trong các biến môi trường S3_ACCESS_KEY, S3_SECRET_KEY hoặc S3_REGION không được thiết lập.
+2024-09-27 17:12:49,917 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:12:55,834 - INFO - Kết nối đến S3 thành công!
+2024-09-27 17:25:48,745 - ERROR - Có lỗi xảy ra khi kết nối đến S3: An error occurred (SignatureDoesNotMatch) when calling the ListBuckets operation: The request signature we calculated does not match the signature you provided. Check your key and signing method.

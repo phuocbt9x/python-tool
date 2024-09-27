@@ -2,6 +2,7 @@ import os
 import requests
 from databricks import sql
 from dotenv import load_dotenv
+from setup_logging import logger
 
 load_dotenv()
 
@@ -28,7 +29,7 @@ def get_token_databricks():
         return OAUTH_TOKEN
 
     except requests.exceptions.RequestException as error:
-        print(f"Error fetching token: {error}")
+        logger.error(f"Error fetching token: {error}")
         raise error
     
 
@@ -41,7 +42,7 @@ def connect_to_databricks():
             http_path=f"/sql/1.0/warehouses/{DATABRICKS_WAREHOUSE_ID}",
             access_token=token
         ) as connection:
-            print("Kết nối thành công!")
+            logger.info("Kết nối thành công!")
 
             query = "SELECT * FROM sales_mart.sales_forecast.order_data LIMIT 10"
             cursor = connection.cursor()
@@ -52,7 +53,7 @@ def connect_to_databricks():
                 print(row)
 
     except Exception as e:
-        print(f"Error connecting to Databricks: {e}")
+        logger.error(f"Error connecting to Databricks: {e}")
         raise e
 
 
